@@ -1,17 +1,119 @@
 ﻿using POO.models;
 
-//CLASS Person
+//Class Person
 //● Añade un constructor a la clase Persona que acepte Nombre y Edad como parámetros.
-Person person = new Person("JOACO", 50);
-person.Greeting();
-person.ShowDetails();
+// Person person = new Person("JOACO", 50);
+// person.Greeting();
+// person.ShowDetails();
 
-// CLASS Car
+// Class Car
 //● Llama a este método y muestra los detalles actualizados.
-Car car = new Car("Volvo","Series II", 2020);
-car.ShowDetails();
-car.NewYear(2023);
-car.ShowDetails();
+// Car car = new Car("Volvo","Series II", 2020);
+// car.ShowDetails();
+// car.NewYear(2023);
+// car.ShowDetails();
 
-//CLASS
+//Class Book
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Book book = new Book("El Príncipe", "Makiavelo");
+//         book.ShowDetails();  
+        
+//         string texto = "Peperioni mussolini franquzio";
+//         book.CountWords(texto);  
 
+//     }
+// }
+
+// Class Calculator 
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Calculator calc = new Calculator();
+
+//         //Sumar
+//         int sumNumbers = calc.Sum(3,8);
+//         Console.WriteLine($"El resultado de la suma es: {sumNumbers}");
+
+//         //Restar
+//         int restNumbers = calc.Rest(20,15);
+//         Console.WriteLine($"El resultado de la resta es: {restNumbers}");
+//     }
+// }
+
+//Class Product
+
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Product product = new Product("PEPERONI", 180000);
+        
+//         Console.WriteLine($"Nombre: {product.GetName()}, Precio: {product.Price }");
+
+//         product.SetName("CHORIZO ESpañol");
+
+//         Console.WriteLine($"Nuevo Nombre: {product.GetName()}");
+//     }
+// }
+
+//Class BankAccount
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         BankAccount bankAccount = new BankAccount("PEPE", 1200000);
+
+//         Console.WriteLine($"El nombre del titular es {bankAccount.Holder} y el saldo es: {bankAccount.Balance:C}");
+
+//         bankAccount.Deposit(200000);
+//         bankAccount.WithDraw(100000);
+//     }
+// }
+
+// //Class Student
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Student student = new Student("JUANITO", 18, 10);
+
+//         Console.WriteLine($"El nombre del estudiante es --> {student.Name}\nLa edad del estudiante es --> {student.GetAge()}\nEl grado del estudiante es --> {student.Grade}");
+        
+//         student.SetAge(20);
+//     }
+// }
+
+//Class Rectangle
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Rectangle rectangle = new Rectangle(10,5);
+
+//         rectangle.CalculateArea();
+//     }
+// }
+
+//Class Circle
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Circle circle = new Circle(9);
+//         circle.CalculateCircumference();
+//     }
+// }
+
+//Class Employee
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Employee employee = new Employee("JOACO","Arquitecto",5000000);
+//         employee.ShowDetails();
+//     }
+// }
