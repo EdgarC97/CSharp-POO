@@ -117,3 +117,15 @@
 //         employee.ShowDetails();
 //     }
 // }
+
+//Class Employee1
+public class Program
+{
+    static void Main(string[] args)
+    {
+        Employee1 employee = new Employee1("EDGAR","CARDONA","edgar@gmail.com",5000000,3,2,5);
+        employee.ShowInformation();
+        employee.ShowDeductions();
+        employee.ShowSavings();
+    }
+}
