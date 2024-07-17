@@ -20,7 +20,7 @@
 //     {
 //         Book book = new Book("El Príncipe", "Makiavelo");
 //         book.ShowDetails();  
-        
+
 //         string texto = "Peperioni mussolini franquzio";
 //         book.CountWords(texto);  
 
@@ -51,7 +51,7 @@
 //     static void Main(string[] args)
 //     {
 //         Product product = new Product("PEPERONI", 180000);
-        
+
 //         Console.WriteLine($"Nombre: {product.GetName()}, Precio: {product.Price }");
 
 //         product.SetName("CHORIZO ESpañol");
@@ -82,7 +82,7 @@
 //         Student student = new Student("JUANITO", 18, 10);
 
 //         Console.WriteLine($"El nombre del estudiante es --> {student.Name}\nLa edad del estudiante es --> {student.GetAge()}\nEl grado del estudiante es --> {student.Grade}");
-        
+
 //         student.SetAge(20);
 //     }
 // }
@@ -119,13 +119,44 @@
 // }
 
 //Class Employee1
-public class Program
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Employee1 employee = new Employee1("EDGAR","CARDONA","edgar@gmail.com",5000000,3,2,5);
+//         employee.ShowInformation();
+//         employee.ShowDeductions();
+//         employee.ShowSavings();
+//     }
+// }
+
+//Herencia
+
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Lyon oLyon = new Lyon();
+//         oLyon.MakeSound();
+//         oLyon.Name = "Pepito";
+
+//         Buitre oBuitre = new Buitre();
+//         oBuitre.Fly();
+//         oBuitre.Name = "Condorito";
+//     }
+// }
+
+class Program
 {
     static void Main(string[] args)
     {
-        Employee1 employee = new Employee1("EDGAR","CARDONA","edgar@gmail.com",5000000,3,2,5);
-        employee.ShowInformation();
-        employee.ShowDeductions();
-        employee.ShowSavings();
+        Apple redApple = new Apple("Red Apple","Red",4);
+        Apple greenApple = new Apple("Green Apple","Green",8);
+
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.WriteLine(redApple.DescribeMe);
+
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine(greenApple.DescribeMe);
     }
 }
