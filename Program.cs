@@ -146,17 +146,28 @@
 //     }
 // }
 
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Apple redApple = new Apple("Red Apple","Red",4);
+//         Apple greenApple = new Apple("Green Apple","Green",8);
+
+//         Console.ForegroundColor = ConsoleColor.Red;
+//         Console.WriteLine(redApple.DescribeMe);
+
+//         Console.ForegroundColor = ConsoleColor.Green;
+//         Console.WriteLine(greenApple.DescribeMe);
+//     }
+// }
+
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Apple redApple = new Apple("Red Apple","Red",4);
-        Apple greenApple = new Apple("Green Apple","Green",8);
+        Player player = new Player(1,"EDGAR","CARDONA","ID","123456",new DateOnly(1997, 01, 21),"O+","M","L",44,1.85,75,"Forward","Right");
 
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine(redApple.DescribeMe);
-
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine(greenApple.DescribeMe);
+        player.ShowDetails();
+        Console.WriteLine($"IMC: {player.CalculateIMC():F2}");
     }
 }
