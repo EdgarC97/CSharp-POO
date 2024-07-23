@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace POO.models
 {
-    public class Carnivoro : Animal
+    public class Carnivoro 
     {
         public string? CantidadCarneCome { get; set; }
 

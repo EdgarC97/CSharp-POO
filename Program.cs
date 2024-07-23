@@ -161,13 +161,34 @@
 //     }
 // }
 
-class Program
-{
-    static void Main()
-    {
-        Player player = new Player(1,"EDGAR","CARDONA","ID","123456",new DateOnly(1997, 01, 21),"O+","M","L",44,1.85,75,"Forward","Right");
+// class Program
+// {
+//     static void Main()
+//     {
+//         Player player = new Player(1,"EDGAR","CARDONA","ID","123456",new DateOnly(1997, 01, 21),"O+","M","L",44,1.85,75,"Forward","Right");
 
-        player.ShowDetails();
-        Console.WriteLine($"IMC: {player.CalculateIMC():F2}");
-    }
-}
+//         player.ShowDetails();
+//         Console.WriteLine($"IMC: {player.CalculateIMC():F2}");
+//     }
+// }
+
+//STATIC
+// Console.WriteLine("Hello, World!");
+// Console.WriteLine(Counter.CountersTotal);
+// Converter.CelsiusToFahrenheit(20);
+// Configuration.ChangeMode();
+// Console.WriteLine(ArithmeticCalculator.Sum(2, 2));
+// HelpfulMath helpfulMath = new HelpfulMath();
+// Console.WriteLine(helpfulMath.Division(8, 2));
+// Storage.AddMessages("Edgar");
+// Storage.ShowMessages();
+
+//POLIMORFISMO
+var doberman = new Dog("Bolt","Masculino","Canino");
+doberman.MakeSound();doberman.Movement();doberman.ShowAnimalInfo();
+
+var garfield = new Cat();
+garfield.MakeSound();garfield.Movement();garfield.ShowAnimalInfo();
+
+var nemo = new Fish();
+garfield.MakeSound();nemo.Movement();nemo.ShowAnimalInfo();

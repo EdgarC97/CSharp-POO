@@ -5,13 +5,13 @@ using System.Threading.Tasks;
 
 namespace POO.models
 {
-    public class Lyon : Carnivoro
+    public class Lyon 
     {
         public string? ColorCabello { get; set; }
 
-       public override void MakeSound()
-        {
-            Console.WriteLine($"El Leon hace GRRR GRRR");
-        }   
+    //    public override void MakeSound()
+    //     {
+    //         Console.WriteLine($"El Leon hace GRRR GRRR");
+    //     }   
     }
 } 
