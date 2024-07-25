@@ -99,6 +99,20 @@ public class Program_1
         foodProduct.ShowProductDetail();
         foodProduct.CalculateFinalPrice();
 
+//15) Crear una jerarquía de clases para representar diferentes tipos de personal (Doctor, Enfermera, Administrativo). Implementar métodos para calcular el salario  y mostrar los detalles del personal. 
+
+        //CLASS DOCTOR
+        Doctor doctor = new Doctor("Dr. Juanito", 5000000, 3.5, 2.5,"Hospital Saint Denise");
+        doctor.ShowPersonalDetails();
+        doctor.ShowSalaryDetail();
+        //CLASS NURSE
+        Nurse nurse = new Nurse("JUANA", 3500000, 2.5, 2.5,"Hospital San Francisco");
+        nurse.ShowPersonalDetails();
+        nurse.ShowSalaryDetail();
+        //CLASS ADMINISTRATIVE
+        Administrative administrative = new Administrative("Diana", 4500000, 5.5, 2.5,"Hospital La Paz");
+        administrative.ShowPersonalDetails();
+        administrative.ShowSalaryDetail();
 
     }   
 }
