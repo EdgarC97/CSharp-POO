@@ -20,7 +20,7 @@ namespace Workshop_1.models
         }
         public void ShowGarmentDetails()
         {
-            Console.WriteLine($"Nombre --> {Name} --> {Size} --> {Price}");
+            Console.WriteLine($"Nombre --> {Name} --> {Size} --> {Price:C}");
         }
     }
 }
