@@ -114,5 +114,17 @@ public class Program_1
         administrative.ShowPersonalDetails();
         administrative.ShowSalaryDetail();
 
+        //Abstract class
+        HumanBody person1 = new HumanBody();
+        Console.WriteLine("=====Creando humano=====");
+        person1.Breathe();
+        person1.Move();
+        person1.Eat();
+        
+        //Static class Lowercase
+        Console.WriteLine("=====Creando clase estática=====");
+        Console.WriteLine("Ingresa palabra que contengan mayusculas");
+        string? input = Console.ReadLine();
+        Console.WriteLine(Lower.ToLowerCase(input));
     }   
 }
